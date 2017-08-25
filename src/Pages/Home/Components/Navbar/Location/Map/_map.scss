@@ -1,0 +1,30 @@
+.map-div {
+  height: 300px;
+  position: relative;
+  margin-top: 20px;
+
+  .community-info-window {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    font-size: 15px;
+    left: 0;
+    right: 0;
+  }
+
+  .map-marker {
+    color: red;
+    text-align: center;
+    position: relative;
+
+    .fa-map-marker {
+      font-size: 36px;
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      left: -10px;
+      color: red;
+    }
+  }
+}

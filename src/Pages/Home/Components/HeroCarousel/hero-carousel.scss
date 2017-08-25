@@ -1,0 +1,58 @@
+.hero-carousel-div {
+  margin: 0 1.5 1.5 0;
+  height: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  position: relative;
+  margin: auto;
+  width: 100%;
+
+  .hero-carousel-images-container {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+
+    .hero-carousel-image {
+      z-index: -1;
+      position: absolute;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      opacity: 1;
+      transition: opacity .25s;
+
+      &.hero-carousel-image-hidden {
+        opacity: 0;
+        transition: opacity .25s;
+      }
+    }
+  }
+
+  .carousel-arrows {
+    display: flex;
+      .left-arrow {
+        height: 50px;
+        margin-left: 20px;
+        font-size: 50px;
+      }
+
+      .right-arrow {
+        height: 50px;
+        font-size: 50px;
+        margin-right: 20px;
+        margin-left: auto;
+        order: 2;
+      }
+
+  }
+}

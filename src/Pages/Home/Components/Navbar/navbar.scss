@@ -1,0 +1,38 @@
+// can throw media query here for width change
+.navbar-div {
+  text-decoration: none;
+  font-weight: bold;
+
+  .navbar-div-links {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    height: 30px;
+    margin: auto;
+  }
+
+  &.navbar-div-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    border-bottom: 1px solid black;
+  }
+
+  a {
+    color: #4F5152;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #4A90E2;
+    text-decoration: underline;
+  }
+}
+
+.navbar-div-push-down {
+  height: 70px;
+}

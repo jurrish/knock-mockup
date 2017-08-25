@@ -1,0 +1,133 @@
+.content-container {
+  min-width: 1000px;
+  max-width: 1000px;
+  box-sizing: border-box;
+
+  @media (max-width: 1000px) {
+    min-width: auto;
+    max-width: auto;
+    width: 100%;
+  }
+}
+
+.location-div {
+  text-align: left;
+  margin: auto;
+  left: 0;
+  padding: 20px;
+
+  p {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #484848 !important;
+  }
+
+  .address-info-div {
+    margin: auto;
+
+    .now-leasing-div {
+      background-color: white;
+      font-size: 16px;
+
+      .address-div {
+        display: flex;
+        i {
+          left: 0;
+        }
+
+        .map-marker-div {
+          margin-top: 5px;
+          i {
+            font-size: 20px;
+          }
+          font-size: 15px;
+        }
+
+        .street-address-div {
+          margin-top: 0;
+          margin-left: 10px;
+
+          .address-two {
+            margin-top: 0;
+          }
+
+          div {
+            margin-left: 0;
+            margin-top: 5px;
+            font-weight: 300;
+            letter-spacing: 0.2px;
+            line-height: 22px;
+            color: #484848 !important;
+          }
+        }
+      }
+
+    }
+
+    .fa-map-marker {
+      color: red;
+    }
+
+    .fa-clock-o {
+      color: blue;
+    }
+
+    .fa-mobile-phone {
+      color: #1c8243;
+    }
+  }
+
+  .office-hours-div {
+    margin: auto;
+
+    .office-hours-content-container {
+      margin: auto;
+
+      .clock-container-div {
+        left: 0;
+        display: flex;
+
+        .clock-marker-div {
+          top: 0;
+        }
+
+        .hours-info-div {
+          margin-left: 10px;
+
+          p {
+            color: #484848 !important;
+            top: 0;
+            margin: 0;
+            font-weight: 300;
+            letter-spacing: 0.2px;
+            line-height: 22px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .phone-icon-div {
+    margin: auto;
+
+    .phone-content-container {
+      margin: auto;
+
+      .phone-container-div {
+        left: 0;
+        display: flex;
+
+        .phone-number-div {
+          color: #484848 !important;
+          top: 0;
+          margin: 0;
+          padding-left: 10px;
+          font-weight: 300;
+          letter-spacing: 0.2px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}

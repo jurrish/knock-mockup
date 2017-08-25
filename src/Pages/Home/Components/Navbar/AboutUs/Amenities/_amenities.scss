@@ -1,0 +1,92 @@
+.amenities-div {
+  text-align: left;
+  padding: 20px;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  line-height: 22px;
+  color: #484848 !important;
+
+  .amenity-header {
+    font-weight: bold;
+  }
+
+  .parking-header {
+    font-weight: bold;
+  }
+
+  .pets-header {
+    font-weight: bold;
+  }
+
+  .utilities-header {
+    font-weight: bold;
+  }
+
+  .laundry-header {
+    font-weight: bold;
+  }
+
+  .leasing-header {
+    font-weight: bold;
+  }
+
+  .amenity-contents {
+    margin-left: 30px;
+  }
+
+  .parking-contents {
+    margin-left: 30px;
+  }
+
+  .pets-contents {
+    margin-left: 30px;
+  }
+
+  .utilities-contents {
+    margin-left: 30px;
+  }
+
+  .laundry-contents {
+    margin-left: 30px;
+  }
+
+  .leasing-options-container {
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+
+    div {
+      margin-top: 15px;
+    }
+  }
+
+  .fa-check-circle-o {
+    color: #69D169;
+  }
+
+  .fa-tint {
+    color: #809AE5;
+  }
+
+  .fa-paw {
+    color: #8C6239;
+  }
+
+  .fa-light-lightbulb-o {
+    color: #8C6239;
+  }
+
+  .fa-car {
+    color: #5BD4C0;
+  }
+
+  .fa-bell {
+    color: #9D73C7;
+  }
+}
